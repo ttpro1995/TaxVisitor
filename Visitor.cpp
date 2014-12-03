@@ -1,12 +1,3 @@
 #include "Visitor.h"
 
-
-Visitor::Visitor()
-{
-}
-
-
-Visitor::~Visitor()
-{
-}
-
+//Group 9 - APCS 13ctt - a example of visitor 

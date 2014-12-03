@@ -1,14 +1,7 @@
 #include "TaxHolidayVisitor.h"
 
+//Group 9 - APCS 13ctt - a example of visitor 
 
-TaxHolidayVisitor::TaxHolidayVisitor()
-{
-}
-
-
-TaxHolidayVisitor::~TaxHolidayVisitor()
-{
-}
 
 double ::TaxHolidayVisitor::visit(Necessity& good)//5%
 {

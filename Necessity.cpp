@@ -1,3 +1,4 @@
+//Group 9 - APCS 13ctt - a example of visitor 
 #include "Necessity.h"
 #include "Visitor.h"
 
@@ -7,9 +8,6 @@ Necessity::Necessity(int a)
 }
 
 
-Necessity::~Necessity()
-{
-}
 
 double::Necessity::accept(Visitor& visitor)
 {

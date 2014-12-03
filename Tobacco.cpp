@@ -1,15 +1,12 @@
 #include "Tobacco.h"
 #include "Visitor.h"
-
+//Group 9 - APCS 13ctt - a example of visitor 
 Tobacco::Tobacco(int a)
 {
 	price = a;
 }
 
 
-Tobacco::~Tobacco()
-{
-}
 
 double ::Tobacco::getPrice()
 {

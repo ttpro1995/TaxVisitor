@@ -1,3 +1,4 @@
+//Group 9 - APCS 13ctt - a example of visitor 
 #include "Necessity.h"
 #include <iostream>
 using namespace std;
@@ -30,6 +31,5 @@ int main()
 	cout << "Egg " << egg.accept(taxholiday) << endl;
 	cout << "Volka " << volka.accept(taxholiday) << endl;
 	cout << "Baconmeo " << baconmeo.accept(taxholiday) << endl;
-
-
+ 
 }
